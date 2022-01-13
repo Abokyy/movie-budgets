@@ -29,14 +29,16 @@ The business layer has diferrent modules, such as the Domain, Data, Features, Co
 Both application respects the phones dark or light theme.
 
 ##### Android
-![Android light](/android_light.gif) 
-![Android light search](/android_light_search.gif)
 
 <p align="center">
+  <img src="android_light.gif" alt="animated" />
+  <img src="android_light_search.gif" alt="animated" />
   <img src="android_dark.gif" alt="animated" />
 </p>
 
 ##### iOS
 
-![iOS light](/ios_light.gif)
-![iOS dark](/ios_dark.gif)
+<p align="center">
+  <img src="ios_light.gif" alt="animated" />
+  <img src="ios_dark.gif" alt="animated" />
+</p>
