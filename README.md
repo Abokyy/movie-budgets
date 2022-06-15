@@ -21,7 +21,7 @@ The business layer has diferrent modules, such as the Domain, Data, Features, Co
 
 - **Domain module**: data classes for the models of the application.
 - **Data module**: responsible for getting the data that needs to be presented. It can happen locally or remotely (through internet). The use cases are defined here.
-- **Core module**: the core of the business logic and the MVI pattern is declared here. (*the repository does not contain the implemetation of this module*)
+- **Core module**: the core of the business logic and the MVI pattern is declared here. (*the repository does not contain the implemetation of this module, if you are interested in that please contact me at varsanyi.botond98@gmail.com*)
 - **Features module**: the ViewModels are implemented here using the BaseViewModel declared in the Core module. An intermediate abstract class wedged for every ViewModel, an AbstractMviView implementation named *ClassName*View. The iOS UI can access the ViewModel through this abstract class which is implemented on the iOS side as a proxy.
 - **Resources**: common resources are declared here such as dimensions and font sizes (*this module is not used in this project*).
 
